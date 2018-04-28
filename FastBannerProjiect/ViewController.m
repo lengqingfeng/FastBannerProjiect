@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "FastBannerView.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet FastBannerView *fastBanner;
 
 @end
 
@@ -16,6 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSArray *imageArray2 = @[@"1.jpg",@"2.jpg",@"3.jpg",@"4.jpg",@"5.jpg",@"6.jpg"];
+    FastBannerView *banner = [[FastBannerView alloc] init];
+    banner.frame = CGRectMake(0, 300, self.view.frame.size.width, 200);
+    banner.imageDataArray = imageArray2;
+    [self.view addSubview:banner];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -15,6 +15,15 @@
 		48AC671320941D2F00298916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC671220941D2F00298916 /* main.m */; };
 		48AC671D20941D2F00298916 /* FastBannerProjiectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC671C20941D2F00298916 /* FastBannerProjiectTests.m */; };
 		48AC672820941D2F00298916 /* FastBannerProjiectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC672720941D2F00298916 /* FastBannerProjiectUITests.m */; };
+		48AC673B20941DD300298916 /* FastBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC673620941DD200298916 /* FastBannerView.m */; };
+		48AC673C20941DD300298916 /* FastPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AC673720941DD300298916 /* FastPageControl.m */; };
+		48AC673D20941DD300298916 /* bannerDelete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AC673820941DD300298916 /* bannerDelete@2x.png */; };
+		48AC673F2094501700298916 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48AC673E2094501700298916 /* 1.jpg */; };
+		48AC67412094501F00298916 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48AC67402094501F00298916 /* 2.jpg */; };
+		48AC67462094502800298916 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48AC67422094502800298916 /* 5.jpg */; };
+		48AC67472094502800298916 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48AC67432094502800298916 /* 3.jpg */; };
+		48AC67482094502800298916 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48AC67442094502800298916 /* 4.jpg */; };
+		48AC67492094502800298916 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48AC67452094502800298916 /* 6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,17 @@
 		48AC672320941D2F00298916 /* FastBannerProjiectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastBannerProjiectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		48AC672720941D2F00298916 /* FastBannerProjiectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastBannerProjiectUITests.m; sourceTree = "<group>"; };
 		48AC672920941D2F00298916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48AC673620941DD200298916 /* FastBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastBannerView.m; sourceTree = "<group>"; };
+		48AC673720941DD300298916 /* FastPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastPageControl.m; sourceTree = "<group>"; };
+		48AC673820941DD300298916 /* bannerDelete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bannerDelete@2x.png"; sourceTree = "<group>"; };
+		48AC673920941DD300298916 /* FastPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastPageControl.h; sourceTree = "<group>"; };
+		48AC673A20941DD300298916 /* FastBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastBannerView.h; sourceTree = "<group>"; };
+		48AC673E2094501700298916 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		48AC67402094501F00298916 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		48AC67422094502800298916 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		48AC67432094502800298916 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		48AC67442094502800298916 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		48AC67452094502800298916 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +121,18 @@
 		48AC670220941D2E00298916 /* FastBannerProjiect */ = {
 			isa = PBXGroup;
 			children = (
+				48AC673520941D5D00298916 /* FastBanner */,
 				48AC670320941D2E00298916 /* AppDelegate.h */,
 				48AC670420941D2E00298916 /* AppDelegate.m */,
 				48AC670620941D2E00298916 /* ViewController.h */,
 				48AC670720941D2E00298916 /* ViewController.m */,
 				48AC670920941D2E00298916 /* Main.storyboard */,
+				48AC673E2094501700298916 /* 1.jpg */,
+				48AC67402094501F00298916 /* 2.jpg */,
+				48AC67422094502800298916 /* 5.jpg */,
+				48AC67432094502800298916 /* 3.jpg */,
+				48AC67442094502800298916 /* 4.jpg */,
+				48AC67452094502800298916 /* 6.jpg */,
 				48AC670C20941D2F00298916 /* Assets.xcassets */,
 				48AC670E20941D2F00298916 /* LaunchScreen.storyboard */,
 				48AC671120941D2F00298916 /* Info.plist */,
@@ -130,6 +157,18 @@
 				48AC672920941D2F00298916 /* Info.plist */,
 			);
 			path = FastBannerProjiectUITests;
+			sourceTree = "<group>";
+		};
+		48AC673520941D5D00298916 /* FastBanner */ = {
+			isa = PBXGroup;
+			children = (
+				48AC673820941DD300298916 /* bannerDelete@2x.png */,
+				48AC673A20941DD300298916 /* FastBannerView.h */,
+				48AC673620941DD200298916 /* FastBannerView.m */,
+				48AC673920941DD300298916 /* FastPageControl.h */,
+				48AC673720941DD300298916 /* FastPageControl.m */,
+			);
+			path = FastBanner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +274,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48AC67412094501F00298916 /* 2.jpg in Resources */,
 				48AC671020941D2F00298916 /* LaunchScreen.storyboard in Resources */,
+				48AC673D20941DD300298916 /* bannerDelete@2x.png in Resources */,
 				48AC670D20941D2F00298916 /* Assets.xcassets in Resources */,
+				48AC67492094502800298916 /* 6.jpg in Resources */,
+				48AC67462094502800298916 /* 5.jpg in Resources */,
 				48AC670B20941D2E00298916 /* Main.storyboard in Resources */,
+				48AC67482094502800298916 /* 4.jpg in Resources */,
+				48AC673F2094501700298916 /* 1.jpg in Resources */,
+				48AC67472094502800298916 /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48AC673B20941DD300298916 /* FastBannerView.m in Sources */,
 				48AC670820941D2E00298916 /* ViewController.m in Sources */,
 				48AC671320941D2F00298916 /* main.m in Sources */,
 				48AC670520941D2E00298916 /* AppDelegate.m in Sources */,
+				48AC673C20941DD300298916 /* FastPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
