@@ -275,7 +275,9 @@
             } else {
                 frame = CGRectMake((self.frame.size.width - self.defaultPageWidth - 20), self.frame.size.height - 20, self.defaultPageWidth, self.defaultPageHeight);
             }
-
+            if (pageCount > 2) {
+                [self.pageControl setNumberOfPages:(pageCount - 2)];
+            }
             self.pageControl.frame = frame;
             [self addSubview:self.pageControl];
         }
@@ -331,9 +333,6 @@
         _pageControl.diameter = 10;
         _pageControl.strokeSelectedColor = self.defaultPageSelectColor;
         _pageControl.coreSelectedColor = [UIColor whiteColor];
-        if (pageCount > 2) {
-            [_pageControl setNumberOfPages:(pageCount - 2)];
-        }
         [_pageControl setCurrentPage:0];
     }
     return _pageControl;
